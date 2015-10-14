@@ -47,9 +47,10 @@
     <Content Include="public\stylesheets\style.css" />
     <Content Include="public\stylesheets\style.styl" />
     <Content Include="README.md" />
-    <Content Include="views\index.ejs" />
-    <Content Include="views\layout.ejs" />
-    <Content Include="views\reg.ejs" />
+    <Content Include="views\index.html" />
+    <Content Include="views\layout.html" />
+    <Content Include="views\login.html" />
+    <Content Include="views\reg.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\" />

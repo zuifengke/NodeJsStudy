@@ -48,4 +48,21 @@ router.post('/reg', function (req, res) {
         });
     });
 });
+
+function checkNotLogin(req, res, next) {
+    //if (req.session.user) {
+    //    req.flash('error', '已登入');
+    //    return res.redirect('/');
+    //}
+    next();
+}
+
+// 登录页路由
+router.get("/login", checkNotLogin);
+router.get("/login", function (req, res) {
+    res.render("login", {
+        title: "用户登入",
+    });
+});
+
 module.exports = router;
