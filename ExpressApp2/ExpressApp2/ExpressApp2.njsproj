@@ -47,6 +47,7 @@
     <Content Include="public\stylesheets\style.css" />
     <Content Include="public\stylesheets\style.styl" />
     <Content Include="README.md" />
+    <Content Include="views\error.html" />
     <Content Include="views\index.html" />
     <Content Include="views\layout.html" />
     <Content Include="views\login.html" />
