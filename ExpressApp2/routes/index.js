@@ -131,6 +131,21 @@ router.get("/logout", function (req, res) {
     res.redirect('/');
 });
 
+// 发言路由
+router.post("/post", checkLogin);
+router.post("/post", function (req, res) {
+    var currentUser = req.session.user;
+    var post = new Post(currentUser.name, req.body.post);
+    post.save(function (err) {
+        if (err) {
+            req.flash('error', err);
+            return res.redirect('/');
+        }
+        req.flash('success', '发表成功');
+        res.redirect('/u/' + currentUser.name);
+    });
+});
+
 router.get("/u/:user", function (req, res) {
     User.get(req.params.user, function (err, user) {
         if (!user) {
@@ -145,9 +160,14 @@ router.get("/u/:user", function (req, res) {
             res.render('user', {
                 title: user.name,
                 posts: posts,
+                user : req.session.user,
+                success : req.flash('success').toString(),
+                error : req.flash('error').toString()
             });
         });
     });
 });
+
+
 
 module.exports = router;

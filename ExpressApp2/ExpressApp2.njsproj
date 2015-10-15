@@ -51,7 +51,10 @@
     <Content Include="views\index.html" />
     <Content Include="views\layout.html" />
     <Content Include="views\login.html" />
+    <Content Include="views\posts.html" />
     <Content Include="views\reg.html" />
+    <Content Include="views\say.html" />
+    <Content Include="views\user.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\" />
