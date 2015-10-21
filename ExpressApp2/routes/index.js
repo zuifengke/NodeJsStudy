@@ -65,7 +65,6 @@ router.post('/reg', function (req, res) {
             }
             req.session.user = newUser;
             req.flash('success', '注册成功');
-            //req.session.success = '注册成功';
             res.redirect('/');
         });
     });
