@@ -8,6 +8,8 @@
     "email": ""
   },
   "dependencies": {
+    "eventproxy": "^0.3.4",
+    "q": "^1.4.1",
     "util": "^0.10.3"
   }
 }

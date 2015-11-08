@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24627.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ExpressApp2", "ExpressApp2\ExpressApp2.njsproj", "{B4D499D9-9881-4266-B8E4-7649A8E847CD}"
 EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "NodejsConsoleApp1", "NodejsConsoleApp1\NodejsConsoleApp1.njsproj", "{504B0524-951B-40D5-865E-9D02FE546513}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "tianqi2", "tianqi2\tianqi2.njsproj", "{F5702E8D-8A30-46AE-AD37-582057536FC7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{504B0524-951B-40D5-865E-9D02FE546513}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{504B0524-951B-40D5-865E-9D02FE546513}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{504B0524-951B-40D5-865E-9D02FE546513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5702E8D-8A30-46AE-AD37-582057536FC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5702E8D-8A30-46AE-AD37-582057536FC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5702E8D-8A30-46AE-AD37-582057536FC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5702E8D-8A30-46AE-AD37-582057536FC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
